@@ -3,12 +3,19 @@
 Created on Wed Jan  1 11:22:14 2025
 
 @author: HP
-"""
+
 
 import os
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
+"""
+import streamlit as st
+import pandas as pd
+import numpy as np
+from sklearn.externals import joblib
+from streamlit_option_menu import option_menu  # Ensure this package is installed
+
 
 # Set page configuration
 st.set_page_config(page_title="Health Assistant",
